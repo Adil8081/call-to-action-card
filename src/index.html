@@ -2,85 +2,72 @@
   <head>
     <style>
       * {
-        margin: 0px;
+        margin: 24px 0px;
         padding: 0px;
+        font-weight: 100;
         font-family: sans-serif;
-        color: rgba(0, 0, 0, 1);
-        letter-spacing: 1px;
-        word-spacing: 1px;
-        line-height: 24px;
-      }
-
-      #card {
-        height: 500px;
-        width: 600px;
-        border: 1px solid grey;
-        box-sizing: border-box;
-        margin: 200px auto;
-        padding: 50px;
-      }
-
-      h1 {
-        height: 30%;
-        font-size: 45px;
-        font-weight: 300;
         color: rgba(0, 0, 0, 0.8);
-        line-height: 50px;
-      }
-
-      #underline {
-        width: 12%;
-        height: 3px;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 50px;
-        margin: 10px 0px;
-      }
-
-      #about{
-        margin: 30px 0px;
-        color: rgba(0, 0, 0, 0.4);
-        font-size:20px;
-        letter-spacing: 2px;
-      }
-
-      #button{
-        background-color: #4184e1;
-        border-radius: 50px;
         box-sizing: border-box;
-        height: 50px;
-        margin: 20px 0px;
-        text-align: center;
-        color: white;
-
+        letter-spacing: 0.8px;
       }
 
-      h2{
-        color: white;
-        font-weight: 300;
-        padding: 15px 0px;
+      article{
+        width: 30%;
+        border: 0.8px solid rgba(0, 0, 0, 0.4);
+        margin: 10% auto;
+        padding: 40px;
+      }
 
+      h1{
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-top: 10px;
+      }
+
+      div{
+        width: 12%;
+        border: 1px solid ;
       }
 
       p{
-        margin: 20px 0px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      a{
+        display: block;
+        height: 6%;
+        color: white;
+        background-color: #4184e1;
+        border-radius: 40px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 22px;
+        padding: 12px 0px;
+      }
+
+      .tnc{
+        font-size: 15px;
+        line-height: 20px;
         color: rgba(0, 0, 0, 0.3);
+        font-weight: 400;
       }
 
     </style>
   </head>
   <body>
-    <article id="card">
+    <article>
       <h1>Build your first chatbot in 10 minutes!</h1>
-      <div id="underline"></div>
-      <p id="about">
+      <div></div>
+      <p>
         Have a bot answering your questions from customers on your website
         within 10 minutes of signing up for ChatBot.
       </p>
-      <div id="button">
-
-        <h2>TRY NOW &RightArrow;</h2>
-      </div>
-      <p>
+      <a href="#">Try Now &rarr;</a>
+      <pn class="tnc">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
       </p>
