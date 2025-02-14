@@ -2,11 +2,9 @@
   <head>
     <style>
       * {
-        margin: 5px 0px;
+        margin: 0px;
         padding: 0px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-          sans-serif;
+        font-family: sans-serif;
         color: rgba(0, 0, 0, 1);
         letter-spacing: 1px;
         word-spacing: 1px;
@@ -15,38 +13,73 @@
 
       #card {
         height: 500px;
-        width: 500px;
+        width: 600px;
         border: 1px solid grey;
         box-sizing: border-box;
-        margin: auto;
+        margin: 200px auto;
         padding: 50px;
       }
 
-      h1{
+      h1 {
         height: 30%;
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 300;
         color: rgba(0, 0, 0, 0.8);
         line-height: 50px;
       }
 
-      #underline{
-        width: 10%;
-        height: 4px;
+      #underline {
+        width: 12%;
+        height: 3px;
         background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 5%;
+        border-radius: 50px;
+        margin: 10px 0px;
       }
+
+      #about{
+        margin: 30px 0px;
+        color: rgba(0, 0, 0, 0.4);
+        font-size:20px;
+        letter-spacing: 2px;
+      }
+
+      #button{
+        background-color: #4184e1;
+        border-radius: 50px;
+        box-sizing: border-box;
+        height: 50px;
+        margin: 20px 0px;
+        text-align: center;
+        color: white;
+
+      }
+
+      h2{
+        color: white;
+        font-weight: 300;
+        padding: 15px 0px;
+
+      }
+
+      p{
+        margin: 20px 0px;
+        color: rgba(0, 0, 0, 0.3);
+      }
+
     </style>
   </head>
   <body>
     <article id="card">
-      <h1>Build your first chabot in 10 minutes!</h1>
+      <h1>Build your first chatbot in 10 minutes!</h1>
       <div id="underline"></div>
-      <p>
+      <p id="about">
         Have a bot answering your questions from customers on your website
         within 10 minutes of signing up for ChatBot.
       </p>
-      <h2>TRY NOW &RightArrow;</h2>
+      <div id="button">
+
+        <h2>TRY NOW &RightArrow;</h2>
+      </div>
       <p>
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
